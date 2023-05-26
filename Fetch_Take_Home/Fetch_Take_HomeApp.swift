@@ -11,7 +11,8 @@ import SwiftUI
 struct Fetch_Take_HomeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LaunchScreen()
+            //ContentView()
         }
     }
 }
