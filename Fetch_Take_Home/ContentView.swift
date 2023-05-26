@@ -8,11 +8,6 @@
 import SwiftUI
 import Foundation
 
-
-//var selectedId: String?
-//var ingredientMeasureDict: [String:String] = [:]
-
-
 struct ContentView: View {
     @StateObject private var viewModel = MealView()
     @State private var isSheetShowing = false
